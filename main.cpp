@@ -372,7 +372,7 @@ void shopping ::recipt()
                 a = (price * discount) / 100;
                 a = (price-a)*m[pcode];
                 t += a;
-                cout << "\t\t    " << pcode << "\t\t" << pname << "\t\t" << price << "\t" << discount << "%\t" << m[pcode] << "\t\t" << a <<endl;
+                cout << "\t\t    " << pcode << "\t\t" << pname << "\t\t" << price << "\t\t" << discount << "%\t\t" << m[pcode] << "\t\t" << a <<endl;
                 cout << "\t\t|___________________________________________________________________________________________________________________|" << endl;
             }
         }
